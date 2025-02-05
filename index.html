@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinícius Minas</title>
+    <script src="js/script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="flex flex-col md:flex-row min-h-screen p-6">
+        <!-- Sidebar -->
+        <aside class="w-full md:w-1/4 bg-gray-800 p-8 rounded-2xl shadow-lg flex flex-col items-center md:h-[calc(100vh-3rem)]">
+            <img src="img/foto.jpg" alt="Foto de perfil" class="w-32 h-32 rounded-full border-4 border-gray-700">
+            <h1 class="text-2xl text-yellow-400 font-bold tracking-wide mt-4">Vinícius Minas</h1>
+            <p class="text-center text-gray-400">Estudante de Sistemas de Informação e DEV</p>
+            <div class="mt-4 space-y-2 text-center">
+                <p class="flex items-center justify-center"><span class="mr-2">📧</span>viniciusminas_@hotmail.com</p>
+                <p class="flex items-center justify-center"><span class="mr-2">📍</span> Ituporanga, Brasil</p>
+            </div>
+            <div class="flex justify-center mt-4 space-x-4">
+                <a href="https://github.com/viniciusminas" target="_blank" class="text-gray-300 hover:text-white">🔗 GitHub</a>
+                <a href="https://www.linkedin.com/in/vinicius-antonio-minas/" target="_blank" class="text-gray-300 hover:text-white">🔗 LinkedIn</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 p-8 md:ml-6 bg-gray-800 rounded-2xl shadow-lg mt-6 md:mt-0 md:h-[calc(100vh-3rem)] overflow-y-auto">
+            <nav class="flex justify-between border-b border-gray-700 pb-3 gap-6">
+                <a href="#about" class="text-yellow-400 font-semibold">Sobre Mim</a>
+                <a href="#experience" class="text-gray-300 hover:text-white">Experiência</a>
+                <a href="#portfolio" class="text-gray-300 hover:text-white">Portfólio</a>
+                <a href="#skills" class="text-gray-300 hover:text-white">Habilidades</a>
+                <a href="#contact" class="text-gray-300 hover:text-white">Contato</a>
+            </nav>
+
+            <section id="about" class="mt-6">
+                <h2 class="text-3xl font-bold text-yellow-400">Sobre Mim</h2>
+                <p class="mt-4 text-gray-300 leading-relaxed">
+                    Olá, meu nome é Vinícius, tenho 23 anos e sou estudante de Sistemas de Informação na UNIDAVI, além de trabalhar e possuir experiência com Suporte de TI há mais de 3 anos.
+                    <br><br>
+                    Meu foco principal na programação é Java, PHP e JavaScript. Possuo alguns projetos pessoais e acadêmicos que podem ser vistos através do meu GitHub. Além de possuir lógica de programação e conhecimentos nas linguagens mencionadas, também tenho experiência com banco de dados, especificamente PostgreSQL (utilizado na faculdade) e SQL Server (utilizado no trabalho).
+                </p>
+            </section>
+
+            <section id="experience" class="mt-8 hidden">
+                <h2 class="text-3xl font-bold text-yellow-400 border-l-4 border-yellow-400 pl-3">Experiência</h2>
+                <div class="mt-6 space-y-6">
+                    <div class="bg-gray-700 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-yellow-400">Soeltech Sistemas</h3>
+                        <p class="text-sm text-gray-400">Jan/2023 - Atual</p>
+                        <p class="text-gray-300 mt-2">
+                            - Análise de chamados e relatórios, categorizando-os por grau de complexidade (fácil, médio e difícil);
+                            <br><br>
+                            - Resolução de problemas e manutenção de códigos na linguagem de programação nativa do ERP Senior (LSP);
+                            <br><br>
+                            - Depuração e ajustes em códigos e regras desenvolvidas durante a implantação do software por consultores técnicos;
+                            <br><br>
+                            - Consulta e manipulação de dados no ERP utilizando SQL Server;
+                            <br><br>
+                            - Criação de documentação interna sobre telas personalizadas e seu funcionamento;
+                            <br><br>
+                            - Participação em reuniões com clientes para entender suas necessidades específicas;
+                            <br><br>
+                            - Elaboração de manuais de usuário para processos customizados.
+                        </p>
+                    </div>
+                    <div class="bg-gray-700 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-yellow-400">IPM Sistemas</h3>
+                        <p class="text-sm text-gray-400">Mar/2022 - Ago/2022</p>
+                        <p class="text-gray-300 mt-2">
+                            Obtive uma experiência voltada para a área de tecnologia em gestão pública, especificamente em Prefeituras.
+                            <br><br>
+                            A junção de ambos fez com que eu pudesse me aprofundar e aprender a buscar soluções para determinadas inconsistências que vinham a ocorrer no cotidiano dos clientes. Desta forma, prestava suporte técnico do software Atende.net, podendo ser através do telefone ou tickets de atendimento via chat (Zendesk Support).
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
